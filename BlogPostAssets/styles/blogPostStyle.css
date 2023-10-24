@@ -48,7 +48,7 @@ header nav a {
 }
 #content #mainContent p {
 	/* All paragraphs under maincontent */
-	color: rgba(146,146,146,1.00);
+	color: rgba(16,16,16,1.00);
 	font-family: source-sans-pro, sans-serif;
 	font-style: normal;
 	font-weight: 200;
@@ -98,14 +98,14 @@ footer article h3 {
 	padding-top: 41px;
 }
 #mainwrapper #content #sidebar {
-	/* Sidebar*/
-	width: 19%;
-	padding-left: 2%;
-	padding-right: 2%;
-	float: left;
-	background-color: rgba(246,246,246,1.00);
-	margin-top: 150px;
-	padding-top: 32px;
+    /* Sidebar*/
+    width: 19%;
+    padding-left: 2%;
+    padding-right: 2%;
+    float: left;
+    background-color: rgba(246,246,246,1.00);
+    margin-top: 30px;
+    padding-top: 0px;
 }
 #mainwrapper {
 	/* Container of all content */

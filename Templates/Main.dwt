@@ -3,9 +3,14 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>BlogPost template by Adobe Dreamweaver</title>
-<link href="BlogPostAssets/styles/blogPostStyle.css" rel="stylesheet" type="text/css">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Web-Dev</title>
+<!-- TemplateEndEditable -->
+<link href="../BlogPostAssets/styles/blogPostStyle.css" rel="stylesheet" type="text/css">
 <!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. We recommend that you do not modify it.--><script>var __adobewebfontsappname__="dreamweaver"</script><script src="http://use.edgefonts.net/montserrat:n4:default;source-sans-pro:n2:default.js" type="text/javascript"></script>
+<!-- TemplateBeginEditable name="head" -->
+	
+<!-- TemplateEndEditable -->
 </head>
 
 <body>
@@ -14,35 +19,22 @@
     <!--**************************************************************************
     Header starts here. It contains Logo and 3 navigation links. 
     ****************************************************************************-->
-    <div id="logo"><!-- <img src="logoImage.png" alt="sample logo"> --><!-- Company Logo text -->WEB-DEV.CA</div>
-<!--    <nav> <a href="#" title="Link">Nav1</a> <a href="#" title="Link">Nav2</a><a href="#" title="Link">Nav3</a> </nav>-->
+    <div id="logo">WEB-DEV.CA</div>
   </header>
+  
   <div id="content">
     <section id="mainContent"> 
       <!--************************************************************************
     Main Blog content starts here
     ****************************************************************************-->
       
-      <h3>
-        <!-- Tagline -->
-        Weaving Webs With Wisdom</h3>
-      <div id="bannerImage"><img src="images/1.jpg" alt="" width="1000" height="300"/></div>
-      <p>Welcome to web-dev.ca, here you will find a collection of musings, gripes, and ecstatic raves about the wonderful world of the web.  From a love-hate relationship with JavaScript, to those pesky pitfalls we refuse remember.</p>
-      <aside id="authorInfo"> 
-        <!-- The author information is contained here -->
-        <h2>Mike Roberts</h2>
-        <p>Having navigated the turbulent waters of web development since the dawn of dial-up, I've been doing my rounds on the web for over 20 years.</p>
-      </aside>
+      <!-- TemplateBeginEditable name="BlogBody" -->BlogBody<!-- TemplateEndEditable -->
     </section>
     <section id="sidebar"> 
-      <!--************************************************************************
-    Sidebar starts here. It contains a searchbox, sample ad image and 6 links
-    ****************************************************************************-->
-<!--      <div id="adimage"><img src="BlogPostAssets/images/300x250.gif" alt=""/></div>-->
       <nav>
         <ul>
           <li><a href="/javascript/index.html">Javascript</a></li>
-          <li><a href="#" title="Link">Python</a></li>
+          <li><a href="/python/index.html">Python</a></li>
           <li><a href="#" title="Link">Algorithms</a></li>
           <li><a href="#" title="Link">Patterns</a></li>
           <li><a href="#" title="Link">Web Development</a></li>
@@ -65,7 +57,7 @@
 -->
 	  
   </div>
-  <div id="footerbar"><!-- Small footerbar at the bottom --></div>
+<!--  <div id="footerbar">Something</div>-->
 </div>
 </body>
 </html>
